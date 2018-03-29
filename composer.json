@@ -1,0 +1,19 @@
+{
+    "name": "hoannc54/timezones",
+    "description": "'test package in laravel'",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hoannc54",
+            "email": "nguyenconghoan94@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Hoannc\\Timezones\\": "packages/hoannc54/timezones/src"
+        }
+    }
+
+}
